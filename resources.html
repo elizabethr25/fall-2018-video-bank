@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UA Coding Bootcamp Video Bank</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html">UA Coding Bootcamp Video Bank</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Videos by Week
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="videoPages/week1.html">Week 1 Videos</a>
+                        <a class="dropdown-item" href="videoPages/week2.html">Week 2 Videos</a>
+                        <a class="dropdown-item" href="videoPages/week3.html">Week 3 Videos</a>
+                        <a class="dropdown-item" href="videoPages/week4.html">Week 4 Videos</a>
+                        <a class="dropdown-item" href="videoPages/week4.html">Week 4 Videos</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron container">
+        <h1 class="display-4">Resources Link Collection</h1>
+        <hr class="my-4">
+        <p>Misc. useful resources links!</p>
+    </div>
+
+    <!-- Resource Links Table -->
+    <div class="container">
+
+        <!-- Button Div -->
+        <div class="buttonDiv"></div>
+
+        <!-- Search Button -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary searchBtn" type="submit">Search</button>
+            </div>
+            <input type="text" id="searchInput" class="form-control" placeholder="Search resources here..." aria-label="" aria-describedby="basic-addon1">
+        </div>
+
+        <!-- Table Body -->
+        <table class="table table-hover table-dark">
+            <thead>
+                <tr>
+                    <th scope="col" class="tableHeader">
+                        <h3>Resource</h3>
+                    </th>
+                    <th scope="col" class="tableHeader">
+                        <h3>Resource Name</h3>
+                    </th>
+                    <th scope="col" class="tableHeader">
+                        <h3>Link</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Git Branching -->
+                <tr>
+                    <td scope="row" class="tdName" topic="git">Learn Git Branching</td>
+                    <td>Interactive website to learn / practice git branching with visual aids.</td>
+                    <td>
+                        <a target="_blank" href="https://learngitbranching.js.org/">Click here to explore Git Branching!</a>
+                    </td>
+                </tr>
+
+                <!-- API Article -->
+                <tr>
+                    <td scope="row" class="tdName" topic="api">What is an API? In English, please.</td>
+                    <td>Refresher on what API's are and how they work.</td>
+                    <td>
+                        <a target="_blank" href="https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82">Click here to explore API's!</a>
+                    </td>
+                </tr>
+
+                <!-- Whiteboarding Interview  -->
+                <tr>
+                    <td scope="row" class="tdName" topic="interviews">How to Be Successful at Whiteboarding Interviews</td>
+                    <td>Deep dive on whiteboarding interview questions, tips, tricks, and examples.</td>
+                    <td>
+                        <a target="_blank" href="https://the-coding-bootcamp.gitbooks.io/whiteboarding-algorithms-and-interview-questions/content/">Click here to explore Whiteboarding Interviews!</a>
+                    </td>
+                </tr>
+
+                <!-- Unix for the Beginning Mage -->
+                <tr>
+                    <td scope="row" class="tdName" topic="unix">Unix for the Beginning Mage</td>
+                    <td>PDF of the short book, "Unix for the Beginning Mage", that teaches the basics of using the Unix command
+                        line by using spells and mages as methaphors.</td>
+                    <td>
+                        <a target="_blank" href="http://unixmages.com/ufbm.pdf">Click here to explore Unix !</a>
+                    </td>
+                </tr>
+
+                <!-- Javascript Scope -->
+                <tr>
+                    <td scope="row" class="tdName" topic="javascript">Understanding Scope and Context in JavaScript</td>
+                    <td>Overview of scope vs context in Javasript.</td>
+                    <td>
+                        <a target="_blank" href="http://ryanmorr.com/understanding-scope-and-context-in-javascript/">Click here to explore scope and context!</a>
+                    </td>
+                </tr>
+
+                <!-- Intro to Node -->
+                <tr>
+                    <td scope="row" class="tdName" topic="node.js">Node JS Tutorial for Beginners - The Net Ninja</td>
+                    <td>1st video in a series of 37 that reviews node.js</td>
+                    <td>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=w-7RQ46RgxU&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp">Click here to explore node!</a>
+                    </td>
+                </tr>
+
+                <!-- Node.js and FS -->
+                <tr>
+                    <td scope="row" class="tdName" topic="node.js">Node JS - Reading and Writing Files</td>
+                    <td>9th video in a series of 37 that reviews node.js</td>
+                    <td>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=U57kU311-nE">Click here to explore reading and writing files with node.js!</a>
+                    </td>
+                </tr>
+
+                <!-- Centering in CSS -->
+                <tr>
+                    <td scope="row" class="tdName" topic="css">How to Center in CSS</td>
+                    <td>App that helps consolidate the ways to center content in CSS and gives you the code you need for the
+                        situation.
+                    </td>
+                    <td>
+                        <a target="_blank" href="http://howtocenterincss.com/">Click here to explore centering in CSS!</a>
+                    </td>
+                </tr>
+
+                <!-- Flexbox article -->
+                <tr>
+                    <td scope="row" class="tdName" topic="css">Flexbox</td>
+                    <td>A friendly tutorial for modern CSS layouts.</td>
+                    <td>
+                        <a target="_blank" href="https://internetingishard.com/html-and-css/flexbox/">Click here to explore flexboxes!</a>
+                    </td>
+                </tr>
+
+                <!-- RESTful API article -->
+                <tr>
+                    <td scope="row" class="tdName" topic="REST">What is REST?</td>
+                    <td>Basics of RESTful APIs.</td>
+                    <td>
+                        <a target="_blank" href="https://www.restapitutorial.com/lessons/whatisrest.html">Click here to explore REST!</a>
+                    </td>
+                </tr>
+
+                <!-- MVC article explained using bar analogy -->
+                <tr>
+                    <td scope="row" class="tdName" topic="mvc">Model-View-Controller (MVC)</td>
+                    <td>MVC Explained Through Ordering Drinks At The Bar</td>
+                    <td>
+                        <a target="_blank" href="https://medium.freecodecamp.org/model-view-controller-mvc-explained-through-ordering-drinks-at-the-bar-efcba6255053">Click here to explore the MVC!</a>
+                    </td>
+                </tr>
+
+                <!-- Javascript/Callbacks -->
+                <tr>
+                    <td scope="row" class="tdName" topic="javascript">Getting to know Asynchronous JavaScript</td>
+                    <td>Callbacks, Promises and Async/Await</td>
+                    <td>
+                        <a target="_blank" href="https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee">Click here to explore Asynchronous Javascript!</a>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="./assets/app.js"></script>
+    </div>
+
+    <footer></footer>
+
+</body>
+
+</html>

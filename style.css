@@ -1,0 +1,58 @@
+body {
+    background-color: lightgrey;
+}
+
+.jumbotron {
+    margin-top: 20px;
+}
+
+.weekHeader {
+    color: lightgrey;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+.tableHeader {
+    text-align: center;
+    color: lightgrey;
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+footer {
+    height: 50px;
+    background-color: #222529;
+    margin-top: 30px;
+}
+
+button {
+    margin: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.buttonDiv {
+    text-align: center;
+}
+
+#navbarDropdownMenuLink {
+    color: white;
+}
